@@ -10,6 +10,13 @@ terraform {
 resource "random_uuid" "this" {
 }
 
-output "uuid" {
+resource "random_uuid" "that" {
+}
+
+output "this_uuid" {
   value = random_uuid.this.result
+}
+
+output "that_uuid" {
+  value = random_uuid.that.result
 }
