@@ -29,5 +29,5 @@ output "static_value" {
 }
 
 output "test_tuple" {
-  value = ["apple", 15, true]
+  value = [15, true, "a"]
 }
