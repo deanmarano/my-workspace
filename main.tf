@@ -32,6 +32,9 @@ output "test_tuple" {
   value = [{
     name = "Dean"
     age  = 34
+  },{
+    name = null
+    age  = 3
 }, {
     name = "Macbook"
     age  = 1
