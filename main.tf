@@ -39,10 +39,16 @@ output "test_tuple" {
     name = "Home"
     age  = 3
   },{
+    name = "Squidward"
+    age  = 22
+  },{
+    name = "Patrickk"
+    age  = 8
+  },{
     name = "Spongebob"
-    age  = 3
-}, {
+    age  = 14
+  }, {
     name = "Macbook"
     age  = 1
-}]
+  }]
 }
