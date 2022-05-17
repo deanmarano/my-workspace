@@ -33,7 +33,13 @@ output "test_tuple" {
     name = "Dean"
     age  = 34
   },{
-    name = null
+    name = "Odie"
+    age  = 2
+  },{
+    name = "Home"
+    age  = 3
+  },{
+    name = "Spongebob"
     age  = 3
 }, {
     name = "Macbook"
