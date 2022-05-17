@@ -27,3 +27,7 @@ output "that_uuid" {
 output "static_value" {
   value = "World at Peace"
 }
+
+output "test_tuple" {
+  value = ["a", 15, true]
+}
