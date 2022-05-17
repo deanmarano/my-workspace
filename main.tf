@@ -29,8 +29,10 @@ output "static_value" {
 }
 
 output "test_tuple" {
-  value = {
+  value = [{
+    name = "Dean"
+  },{
     name = "John"
     age  = 52
-  }
+  }]
 }
