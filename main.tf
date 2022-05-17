@@ -25,5 +25,5 @@ output "that_uuid" {
 }
 
 output "static_value" {
-  value = "World"
+  value = "World at Peace"
 }
