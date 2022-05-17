@@ -8,6 +8,9 @@ terraform {
 }
 
 resource "random_uuid" "this" {
+  keepers = { 
+  foo = timestamp()
+  }
 }
 
 resource "random_uuid" "that" {
