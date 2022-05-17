@@ -29,5 +29,5 @@ output "static_value" {
 }
 
 output "test_tuple" {
-  value = [15, true, "z"]
+  value = [15, true, false]
 }
