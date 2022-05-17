@@ -23,3 +23,7 @@ output "this_uuid" {
 output "that_uuid" {
   value = random_uuid.that.result
 }
+
+output "static_value" {
+  value = "Hello"
+}
